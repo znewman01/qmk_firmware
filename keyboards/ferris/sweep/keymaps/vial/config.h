@@ -7,3 +7,7 @@
 #define VIAL_UNLOCK_COMBO_ROWS { 2, 3, 0, 0, 0 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 1, 0, 2, 4 }
 
+#define DYNAMIC_KEYMAP_LAYER_COUNT 10
+#define FORCE_NKRO
+
+

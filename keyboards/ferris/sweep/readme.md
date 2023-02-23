@@ -35,8 +35,8 @@ For Elite-C or compatible controllers using `DFU` bootloader, add the line `BOOT
 
 Pro Micro RP2040 controllers are supported with [QMK Converters](https://docs.qmk.fm/#/feature_converters). The make command example with handedness setting for Adafruit's KB2040 are:
 
-    make CONVERT_TO=kb2040 ferris/sweep:default:uf2-split-left
-    make CONVERT_TO=kb2040 ferris/sweep:default:uf2-split-right
+    make CONVERT_TO=promicro_rp2040 ferris/sweep:default:uf2-split-left
+    make CONVERT_TO=promicro_rp2040 ferris/sweep:default:uf2-split-right
 
 ## Bootloader
 

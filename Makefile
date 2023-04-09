@@ -60,7 +60,7 @@ include paths.mk
 TEST_OUTPUT_DIR := $(BUILD_DIR)/test
 ERROR_FILE := $(BUILD_DIR)/error_occurred
 
-.DEFAULT_GOAL := all:all
+.DEFAULT_GOAL := ferris/sweep:znewman01:uf2-split-left
 
 
 # Compare the start of the RULE variable with the first argument($1)

@@ -63,16 +63,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   // Numbers and nav
   [1] = LAYOUT(
-    KC_TAB,  KC_1,    KC_2,    KC_3,    SFT_TAB,         KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_DEL,
-    ALT_TAB, KC_4,    KC_5,    KC_6,    KC_0,            KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______,
-    CTL_TAB, KC_7,    KC_8,    KC_9,    CS_TAB,          KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, KC_ENT,
+    KC_TAB,  KC_1, KC_2,    KC_3,    SFT_TAB,         KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_DEL,
+    ALT_TAB, KC_4, KC_5,    KC_6,    KC_0,            KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______,
+    CTL_TAB, KC_7, KC_8,    KC_9,    CS_TAB,          KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, KC_ENT,
                                  XXXXXXX, _______,     _______, MO(3)
   ),
   // Symbols
   [2] = LAYOUT(
-    KC_TILD, KC_EXLM, KC_AT,   KC_HASH, _______,         KC_EQL,  KC_LCBR, KC_LBRC, KC_RBRC, KC_BSLS,
-     KC_GRV, KC_DLR,  KC_PERC, KC_CIRC, _______,         KC_MINS, KC_RCBR, KC_LPRN, KC_RPRN, KC_DQUO,
-    _______, KC_AMPR, KC_ASTR, _______, _______,         KC_PIPE, _______, KC_LT,   KC_GT,   KC_QUOT,
+    KC_TILD, S(KC_1), S(KC_2), S(KC_3), _______,         KC_EQL,  KC_LCBR, KC_LBRC, KC_RBRC, KC_BSLS,
+    KC_GRV,  S(KC_4), S(KC_5), S(KC_6), S(KC_6),         KC_MINS, KC_RCBR, KC_LPRN, KC_RPRN, KC_DQUO,
+    _______, S(KC_7), S(KC_8), S(KC_9), _______,         KC_PIPE, _______, KC_LT,   KC_GT,   KC_QUOT,
                                    MO(3), _______,     _______, XXXXXXX
   ),
   [3] = LAYOUT(
